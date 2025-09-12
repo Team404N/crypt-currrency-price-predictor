@@ -1,0 +1,18 @@
+[project]
+name = "cryptocurrency-price-predictor"
+version = "1.0.0"
+description = "Cryptocurrency price forecasting using LSTM and ML models"
+authors = [{name="Abhinay Kumar"}]
+license = {text = "AGPL-3.0"}
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "tensorflow",
+    "keras",
+    "requests"
+]
+
+[tool.uv]
+# Build system placeholder for uv
